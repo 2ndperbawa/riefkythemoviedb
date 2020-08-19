@@ -1,0 +1,129 @@
+.app {
+  margin-top: 65px;
+  text-align: center;
+  background-color: #f4f4f4;
+  display: flex;
+}
+
+.peopleLeft {
+  padding-top: 10px;
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.peopleImg {
+  margin: 20px;
+  width: 300px;
+  border-radius: 9px;
+  height: 450px;
+}
+
+.peopleImg-img {
+  border-radius: 9px;
+  width: 100%;
+}
+
+.peopleIdentity {
+  margin-top: 90px;
+  text-align: start;
+  margin: 20px;
+  width: 90%;
+  border-radius: 9px;
+  height: 550px;
+}
+
+.peopleIdentity-h {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.peopleIdentity-h1 {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.peopleRight {
+  padding-left: 15px;
+  padding-top: 32px;
+  padding-right: 15px;
+  width: 70%;
+
+  height: auto;
+}
+
+.peopleDetail {
+  padding: 10px;
+  padding-top: 5px;
+  border-radius: 9px;
+  text-align: start;
+  width: 100%;
+  height: auto;
+}
+
+.peopleIdentity-span {
+  font-size: 15px;
+}
+
+.peopleDetail-h {
+  font-weight: bold;
+}
+
+.peopleDetailName {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.peopleBiographyH {
+  margin-top: 50px;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.peopleBiographyH-h {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.peopleDetailBiograph {
+  margin-top: 8px;
+  width: 95%;
+  height: 160px;
+  border-radius: 9px;
+}
+
+.peopleMovie1 {
+  margin-top: 30px;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 320px;
+}
+
+.peopleMovieCard {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  width: 140px;
+  border-radius: 7px;
+}
+
+.movieCardImg {
+  box-shadow: 1px 1px 6px #888888;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.peopleMovieHeader {
+  margin-top: 20px;
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+}

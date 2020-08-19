@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.searchPage2 {
+  height: auto;
+  display: flex;
+}
+
+.searchPage1 {
+  flex-direction: column;
+}
+
+.settingBar {
+  padding-left: 15px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 25%;
+  height: auto;
+}
+
+.content {
+  padding-right: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+/*
+
+
+                MOVIE CARDS
+
+
+
+*/
+
+.movie-container-search {
+  padding-top: 20px;
+  padding-left: 40px;
+  height: 430px;
+  outline: none;
+}
+
+.movSlider {
+  margin: auto;
+  width: 90%;
+}
+
+.card-movie-search {
+  border-radius: 9px;
+  margin-top: 15px;
+  width: 198px;
+  border-radius: 10px;
+  height: 407px;
+}
+
+.movie-img-search {
+  cursor: pointer;
+  border-radius: 9px;
+  width: 100%;
+  margin: auto;
+}
+
+.movie-title-search {
+  padding-left: 10px;
+  text-align: start;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.movieTitle-text-search {
+  color: #22211f;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.movie-date-search {
+  padding-left: 10px;
+  text-align: start;
+}
+
+.movieDate-text-search {
+  font-size: 13px;
+}
+
+.loadMore {
+  width: 100%;
+  height: auto;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.loadMoreButton {
+  margin-top: 10px;
+  background-color: #ff7314;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f4f4f4;
+  width: 100%;
+  height: 50px;
+  outline: none !important;
+  border: none;
+  border-radius: 5px;
+}
+
+.loadMoreButton:hover {
+  color: #22211f;
+}
+
+.allPeoplePage {
+  height: auto;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settingBarPeople {
+  padding-left: 40px;
+  padding-top: 25px;
+  width: 100%;
+  height: auto;
+}
+
+.settingBarPeople h3 {
+  text-align: start;
+}
+
+.contentPeople {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding-left: 37px;
+  padding-right: 45px;
+}
+
+.peopleMovie {
+  padding-left: 10px;
+  text-align: start;
+}
+
+.card-people-search {
+  border-radius: 9px;
+  width: 198px;
+  padding: 3px;
+  border-radius: 10px;
+  height: 275px;
+  box-shadow: 1px 1px 6px #888888;
+}
+
+.peopleMovieSpan {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+
+.peopleTitle-text-search {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #22211f;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.people-container-search {
+  margin: 5px;
+  padding: 5px;
+  height: 300px;
+  outline: none;
+}
+
+.people-img-search {
+  cursor: pointer;
+  border-radius: 9px;
+  width: 100%;
+  margin: auto;
+}
+
+.loadMorePeople {
+  width: 85%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .movie-container-search {
+    width: 50%;
+  }
+
+  .card-movie-search {
+    border-radius: 9px;
+    margin-top: 15px;
+    width: 148px;
+    border-radius: 10px;
+    height: 407px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .card-movie-search {
+    width: 200px;
+  }
+
+  .movie-container-search {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 17%;
+    height: 430px;
+    outline: none;
+  }
+}
+
+.footer1 {
+  text-align: left;
+  display: flex;
+  color: #f4f4f4;
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  height: auto;
+  background-color: #22211f;
+  z-index: 0;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 458px) and (max-width: 518px) {
+  .card-people-search {
+    border-radius: 9px;
+    width: 168px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .card-people-search {
+    border-radius: 9px;
+    width: 250px;
+    height: 350px;
+  }
+
+  .people-container-search {
+    height: 370px;
+  }
+}

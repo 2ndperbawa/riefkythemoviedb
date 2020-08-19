@@ -1,0 +1,680 @@
+/*
+
+        MOVIE TOP
+
+
+*/
+
+.movie {
+  margin-top: 60px;
+  transition: 0.3s;
+}
+
+.movieNav {
+  width: 100%;
+  height: 10px;
+}
+
+.movieTop {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moviePoster {
+  padding: 15px;
+  width: 30%;
+  height: 100%;
+}
+
+.movieTopDetail {
+  text-align: start;
+  padding: 9px;
+  color: #f4f4f4;
+  width: 70%;
+  height: auto;
+}
+
+.moviePosterImg {
+  cursor: pointer;
+  border-radius: 7px;
+  width: 80%;
+  margin: auto;
+}
+
+.movieTopTitle {
+  border-radius: 9px;
+  width: 100%;
+  height: auto;
+}
+
+.MTR-release {
+  font-size: 9px;
+}
+
+.movieTopTitle h2 {
+  font-weight: bold;
+}
+
+.movieTopYear {
+  font-weight: 400;
+}
+
+.movieTopScore {
+  border-radius: 9px;
+  height: auto;
+  width: 40%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.MTS-Score {
+  display: flex;
+  font-weight: bold;
+  width: 120px;
+}
+.MTS-ScoreHead {
+  padding-top: 10px;
+  width: 40px;
+  height: 100%;
+  margin-left: 9px;
+}
+.circularRate {
+  position: relative;
+  width: 70px;
+  font-weight: bold;
+}
+
+.MTS-play {
+  display: flex;
+  margin-top: 21px;
+  margin-left: 15px;
+  width: auto;
+  height: 27px;
+  cursor: pointer;
+}
+
+.MTS-play-h {
+  padding-top: 3px;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.MTS-play:hover {
+  color: #ff7314;
+}
+
+.movieTagLine {
+  margin-top: 40px;
+}
+
+.movieTopOverview-h {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.movieTopOverview {
+  margin-top: 35px;
+}
+
+.crew {
+  display: flex;
+  margin-top: 25px;
+}
+
+.crew1 {
+  width: 30%;
+  margin-right: 3%;
+}
+
+.crew1 > div:nth-child(1),
+.crew2 > div:nth-child(1),
+.crew3 > div:nth-child(1) {
+  font-weight: bold;
+}
+
+.crew2 {
+  width: 30%;
+  margin-right: 3%;
+}
+
+.crew3 {
+  width: 30%;
+  margin-right: 3%;
+}
+
+/*
+
+        MOVIE BOTTOM
+
+
+*/
+
+.movieBottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.movieBottomDetail {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 25%;
+  height: auto;
+}
+
+.movieBottomDetail > div {
+  margin-bottom: 30px;
+}
+
+.MBD-h {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.MBD-resultKeyword {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keywordSpan {
+  background-color: #ff7314;
+  color: #f4f4f4;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 3px;
+  margin-left: 0;
+  margin-right: 5px;
+  border-radius: 5px;
+  width: max-content;
+}
+
+.movieBottomInformation {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 20px;
+  width: 75%;
+  height: auto;
+}
+
+.MBI-cast {
+  text-align: start;
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(57, 53, 52, 0.2);
+}
+
+.MBI-castCard {
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 360px;
+  padding: 20px;
+  display: flex;
+  overflow: auto;
+}
+
+.castCard {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 6px #888888;
+  width: 145px;
+  border-radius: 5px;
+  height: 350px;
+}
+
+.castCard-img {
+  width: 100%;
+  height: 178px;
+  border-radius: 5px;
+}
+
+.castCard-name {
+  color: #22211f;
+  font-weight: bold;
+  margin-left: 9px;
+  margin-top: 9px;
+}
+
+.castCard-role {
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: 9px;
+}
+
+.MBICast-full {
+  margin-top: 30px;
+}
+
+.MBIMedia-h {
+  font-weight: bold;
+  text-align: start;
+}
+.MBICast-fullLink {
+  font-size: 17px;
+  color: #22211f;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.MBICast-fullLink:hover {
+  color: #22211f;
+
+  text-decoration: none;
+}
+
+.MBI-media {
+  margin-top: 50px;
+  height: auto;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(57, 53, 52, 0.2);
+}
+
+.MBIMedia-head {
+  display: flex;
+  height: 60px;
+}
+
+.MBIMedia-hDiv {
+  width: 120px;
+  padding: 10px;
+  padding-left: 1px;
+}
+
+.MBIMedia-buttonDiv {
+  padding: 10px;
+  outline: none;
+}
+
+.MBIMediaButton1 {
+  font-weight: bold;
+  font-size: 17px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 30px;
+  outline: none !important;
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.MBIMediaButton2 {
+  color: #f4f4f4;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 30px;
+  outline: none !important;
+  border: 0;
+  border-radius: 15px;
+  background-color: #ff7314;
+  transition: 0.3s;
+}
+
+.mediaContent1 {
+  transform: translateX(0);
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 320px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.mediaContent2 {
+  transform: translateX(0);
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 320px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.contentCard {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  margin-right: 5px;
+  height: 100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.contentCard-backdrop {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  margin-right: 5px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.circle {
+  background-color: rgba(57, 53, 52, 0.5);
+  margin-top: 20%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 16px;
+  padding-left: 5px;
+  transition: 0.3s;
+}
+
+.playTrailer {
+  color: #f4f4f4;
+}
+
+.contentCard:hover .circle {
+  margin-top: 18.5%;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+}
+
+.contentCard:hover {
+  box-shadow: 1px 1px 6px #888888;
+}
+
+.contentCard-poster {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  margin-right: 5px;
+  height: 300px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.MBI-recommendation {
+  margin-top: 50px;
+  text-align: start;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(57, 53, 52, 0.2);
+  margin-bottom: 30px;
+}
+
+.recImg {
+  box-shadow: 1px 1px 6px #888888;
+  width: 245px;
+  border-radius: 5px;
+  height: 150px;
+}
+.recCard {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  width: 245px;
+  border-radius: 5px;
+  height: 180px;
+}
+
+.MBI-recCard {
+  width: 100%;
+  height: 225px;
+  padding: 10px;
+  display: flex;
+  overflow: scroll;
+}
+
+.modalIframe {
+  outline: none;
+  border: none;
+}
+
+/*
+
+      Media Query
+
+
+*/
+
+@media screen and (min-width: 545px) and (max-width: 800px) {
+  .movieTop {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .movieTopDetail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movieTopScore {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: rgba(34, 33, 31, 0.9);
+  }
+
+  .MTS-Score {
+    justify-content: center;
+    width: 50%;
+    border-right: 1px solid rgba(228, 223, 212, 0.3);
+  }
+
+  .MTS-play {
+    justify-content: center;
+    width: 50%;
+  }
+
+  .moviePoster {
+    background-image: linear-gradient(to left, rgba(34, 33, 31, 0.1), #22211f);
+    padding: 15px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .movieTopTitle {
+    text-align: center;
+    border-radius: 0;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(34, 33, 31, 0.6);
+  }
+
+  .movieTopRelease {
+    margin: 0;
+    height: auto;
+    text-align: center;
+    background-color: rgba(34, 33, 31, 0.6);
+  }
+
+  .movieTagLine {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgba(34, 33, 31, 0.6);
+    margin: 0;
+  }
+
+  .movieTopOverview {
+    margin: 0;
+    background-color: rgba(34, 33, 31, 0.6);
+  }
+
+  .crew {
+    padding-bottom: 50px;
+    margin: 0;
+    background-color: rgba(34, 33, 31, 0.6);
+  }
+
+  .movieBottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movieBottomDetail {
+    width: 100%;
+  }
+
+  .movieBottomInformation {
+    width: 100%;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .movieTop {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .movieTopDetail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movieTopScore {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    background-color: rgba(34, 33, 31, 0.9);
+  }
+
+  .MTS-Score {
+    justify-content: center;
+    width: 50%;
+    border-right: 1px solid rgba(228, 223, 212, 0.3);
+  }
+
+  .MTS-play {
+    justify-content: center;
+    width: 50%;
+  }
+
+  .moviePoster {
+    background-image: linear-gradient(to left, rgba(34, 33, 31, 0.1), #22211f);
+    padding-left: 5%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .movieTopTitle {
+    text-align: center;
+    border-radius: 0;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(34, 33, 31, 0.6);
+  }
+
+  .movieTopRelease {
+    margin: 0;
+    height: auto;
+    text-align: center;
+    background-color: rgba(34, 33, 31, 0.6);
+  }
+
+  .movieTagLine {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgba(34, 33, 31, 0.6);
+    margin: 0;
+  }
+
+  .movieTopOverview {
+    margin: 0;
+    background-color: rgba(34, 33, 31, 0.6);
+  }
+
+  .crew {
+    padding-bottom: 50px;
+    margin: 0;
+    background-color: rgba(34, 33, 31, 0.6);
+  }
+
+  .movieBottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movieBottomDetail {
+    width: 100%;
+  }
+
+  .movieBottomInformation {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .MBIMedia-hDiv {
+    width: auto;
+  }
+
+  .MBIMedia-head {
+    height: auto;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .MBIMedia-buttonDiv {
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .movieBottomDetail {
+    padding-left: 10px;
+  }
+
+  .crew {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .crew > div {
+    width: 40%;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+
+  .MBIMediaButton2 {
+    margin-right: 5px;
+  }
+  .MBIMediaButton1 {
+    margin-right: 5px;
+  }
+  .contentCard {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .mediaContent1 {
+    height: 200px;
+  }
+}

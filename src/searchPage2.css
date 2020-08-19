@@ -1,0 +1,287 @@
+.App {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.searchPage {
+  height: auto;
+  margin-top: 97px;
+  display: flex;
+}
+
+.searchPage1 {
+  flex-direction: column;
+}
+
+.searchTop {
+  margin-top: -35px;
+  background-color: #f4f4f4;
+  position: fixed;
+  text-align: start;
+  width: 100%;
+  height: 65px;
+}
+
+.searchBottom {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.searchTop-form {
+  margin-top: 10px;
+  margin-left: 2%;
+  padding: 5px;
+  width: 95%;
+  height: 50px;
+}
+
+.searchTop-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 4px;
+  height: 30px;
+}
+
+.searchTop-button {
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  height: 30px;
+}
+.searchTop-button:hover {
+  background-color: #ff7314;
+  color: #f4f4f4;
+}
+
+.searchTop-formDiv {
+  display: flex;
+}
+
+.searchTop-inputDiv {
+  padding-top: 5px;
+  flex: 23 5 200px;
+}
+
+.searchTop-formMiddle {
+  width: 5px;
+}
+.searchTop-buttonDiv {
+  flex: 1 1 50px;
+}
+
+.searchBottom-left {
+  flex: 1 1 200px;
+  height: inherit;
+}
+
+.searchBottomLeft-catlist {
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 85%;
+  border-radius: 13px;
+  height: 245px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  text-align: start;
+  background-color: #f4f4f4;
+}
+
+.searchBottomLeft-catlisth {
+  padding-top: 20px;
+  padding-left: 20px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-color: #ff7314;
+  height: 65px;
+}
+
+.searchBottomLeft-catlisth h4 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #f4f4f4;
+}
+
+.resultCount {
+  border-radius: 5px;
+  margin-top: 7px;
+  font-weight: bold;
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  background-color: #ff7314;
+  color: #f4f4f4;
+  height: 28px;
+  width: auto;
+}
+
+.searchBottomLeft-catlistb1 {
+  padding-right: 7px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 8px;
+  display: flex;
+  margin-right: 10px;
+  background-color: #faab76;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 45px;
+  width: 95%;
+}
+
+.searchBottomLeft-catlistb2 {
+  padding-right: 7px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 8px;
+  display: flex;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 45px;
+  width: 95%;
+}
+
+.searchBottomLeft-catlistb1h4 {
+  margin-left: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.searchBottomLeft-catlistb1:hover {
+  background-color: #faab76;
+}
+
+.searchBottomLeft-catlistb2:hover {
+  background-color: #faab76;
+}
+
+.searchBottomLeft-catlistb3:hover {
+  background-color: #faab76;
+}
+
+.searchBottom-right {
+  width: 300px;
+  flex: 6 2 200px;
+  height: auto;
+}
+
+.peopleResult {
+  padding: 15px;
+  text-align: start;
+  width: 100%;
+  border-radius: 7px;
+  transition: 0.5s;
+  height: auto;
+}
+
+.movieResult {
+  padding: 15px;
+  text-align: start;
+  border-radius: 7px;
+  transition: 0.5s;
+  height: auto;
+}
+
+.searchResultCard {
+  margin: 19px;
+  display: flex;
+  padding: 2px;
+}
+
+.searchResultCardImg {
+  width: 90px;
+  height: 90px;
+  border-radius: 9px;
+}
+
+.searchResultCard > div:nth-child(1) {
+  flex: 1 1 20px;
+  text-align: center;
+}
+
+.searchResultCard > div:nth-child(2) {
+  flex: 7 3 20px;
+  padding: 5px;
+  height: 120px;
+  padding-top: 20px;
+}
+
+.cardIdentity {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  overflow-y: hidden;
+  margin-left: 15px;
+  text-overflow: ellipsis;
+}
+
+.cardIdentity > div:nth-child(1) {
+  height: auto;
+  width: 100%;
+}
+
+.cardIdentity > div:nth-child(2) {
+  height: auto;
+  width: 100%;
+}
+
+.cardIdentitySpan1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cardIdentitySpan2 {
+  font-size: 15px;
+}
+
+.searchResultCard1 {
+  margin: 19px;
+  display: flex;
+  padding: 2px;
+}
+
+.searchResultCard1 > div:nth-child(1) {
+  flex: 1 1 20px;
+  text-align: center;
+}
+
+.searchResultCard1 > div:nth-child(2) {
+  flex: 7 3 20px;
+  padding: 5px;
+  height: 90px;
+}
+
+.cardIdentity1 {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.cardIdentity1 > div {
+  width: 50%;
+  height: 30px;
+  margin: 3px;
+}
+
+.searchResultmovCardImg {
+  width: 94px;
+  height: 141px;
+  border-radius: 8px;
+}
+
+.movCardIdentitySpan1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.movCardIdentityparagh {
+  font-size: 15px;
+}
