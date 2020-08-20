@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import img from "../default.svg";
 import img1 from "../missing.jpg";
+import { Link } from "react-router-dom";
 
 class PeopleResult extends Component {
   constructor(props) {
@@ -22,18 +23,36 @@ class PeopleResult extends Component {
               return (
                 <div className="searchResultCard">
                   <div>
-                    <img
-                      className="searchResultCardImg"
-                      src={
-                        item.profile_path
-                          ? `https://image.tmdb.org/t/p/w90_and_h90_face${item.profile_path}`
-                          : img
-                      }
-                    />
+                    <Link
+                      to={{
+                        pathname: "/riefkythemoviedb/people",
+                        state: {
+                          peopleId: item.id
+                        }
+                      }}
+                    >
+                      <img
+                        className="searchResultCardImg"
+                        src={
+                          item.profile_path
+                            ? `https://image.tmdb.org/t/p/w90_and_h90_face${item.profile_path}`
+                            : img
+                        }
+                      />
+                    </Link>
                   </div>
                   <div className="cardIdentity">
                     <div>
-                      <span className="cardIdentitySpan1"> {item.name} </span>{" "}
+                      <Link
+                        to={{
+                          pathname: "/riefkythemoviedb/people",
+                          state: {
+                            movieId: item.id
+                          }
+                        }}
+                      >
+                        <span className="cardIdentitySpan1"> {item.name} </span>{" "}
+                      </Link>
                     </div>
                     <div>
                       <span className="cardIdentitySpan2">

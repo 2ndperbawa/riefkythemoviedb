@@ -63,7 +63,7 @@ class Popular extends Component {
                     <div className="card-movie-search">
                       <Link
                         to={{
-                          pathname: "/movie",
+                          pathname: "/riefkythemoviedb/movie",
                           state: {
                             movieId: item.id
                           }
@@ -102,7 +102,7 @@ class Popular extends Component {
                       <div className="movie-title-search">
                         <Link
                           to={{
-                            pathname: "/movie",
+                            pathname: "/riefkythemoviedb/movie",
                             state: {
                               movieId: item.id
                             }

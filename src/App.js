@@ -28,16 +28,28 @@ class App extends Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/404" component={NotFound} />
-            <Route exact path="/popularmovies" component={Popular} />
-            <Route exact path="/movie" component={Movie} />
-            <Route exact path="/searchpeople" component={Allpeople} />
-            <Route exact path="/people" component={People} />
-            <Route exact path="/populartvshows" component={AllTvShows} />
-            <Route exact path="/tvshow" component={TvShow} />
-            <Route exact path="/search" component={Search} />
-            <Redirect to="/404" />
+            <Route exact path="/riefkythemoviedb" component={Home} />
+            <Route exact path="/riefkythemoviedb/404" component={NotFound} />
+            <Route
+              exact
+              path="/riefkythemoviedb/popularmovies"
+              component={Popular}
+            />
+            <Route exact path="/riefkythemoviedb/movie" component={Movie} />
+            <Route
+              exact
+              path="/riefkythemoviedb/searchpeople"
+              component={Allpeople}
+            />
+            <Route exact path="/riefkythemoviedb/people" component={People} />
+            <Route
+              exact
+              path="/riefkythemoviedb/populartvshows"
+              component={AllTvShows}
+            />
+            <Route exact path="/riefkythemoviedb/tvshow" component={TvShow} />
+            <Route exact path="/riefkythemoviedb/search" component={Search} />
+            <Redirect to="/riefkythemoviedb/404" />
           </Switch>
         </Router>
       </React.Fragment>

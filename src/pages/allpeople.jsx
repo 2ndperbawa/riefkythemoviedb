@@ -63,7 +63,7 @@ class Allpeople extends Component {
                   <div className="card-people-search">
                     <Link
                       to={{
-                        pathname: "/people",
+                        pathname: "/riefkythemoviedb/people",
                         state: {
                           peopleId: item.id
                         }
@@ -78,7 +78,7 @@ class Allpeople extends Component {
                     <div className="movie-title-search">
                       <Link
                         to={{
-                          pathname: "/people",
+                          pathname: "/riefkythemoviedb/people",
                           state: {
                             movieId: item.id
                           }

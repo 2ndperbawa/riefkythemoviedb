@@ -12,7 +12,7 @@ class Recommendation extends Component {
                 <div className="recCard">
                   <Link
                     to={{
-                      pathname: "/movie",
+                      pathname: "/riefkythemoviedb/movie",
                       state: {
                         movieId: item.id
                       }

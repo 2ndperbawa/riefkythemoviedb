@@ -12,7 +12,7 @@ class CastAndCrew extends Component {
                 <div className="castCard">
                   <Link
                     to={{
-                      pathname: "/people",
+                      pathname: "/riefkythemoviedb/people",
                       state: {
                         peopleId: item.id
                       }
@@ -30,7 +30,7 @@ class CastAndCrew extends Component {
                   </Link>
                   <Link
                     to={{
-                      pathname: "/people",
+                      pathname: "/riefkythemoviedb/people",
                       state: {
                         peopleId: item.id
                       }

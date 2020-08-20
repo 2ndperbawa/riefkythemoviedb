@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import img from "../default.svg";
 import img1 from "../missing.jpg";
+import { Link } from "react-router-dom";
 
 class TvShowResult extends Component {
   constructor(props) {
@@ -22,21 +23,39 @@ class TvShowResult extends Component {
               return (
                 <div className="searchResultCard">
                   <div>
-                    <img
-                      className="searchResultmovCardImg"
-                      src={
-                        item.poster_path
-                          ? `https://image.tmdb.org/t/p/w94_and_h141_bestv2${item.poster_path}`
-                          : img1
-                      }
-                    />
+                    <Link
+                      to={{
+                        pathname: "/riefkythemoviedb/tvshow",
+                        state: {
+                          movieId: item.id
+                        }
+                      }}
+                    >
+                      <img
+                        className="searchResultmovCardImg"
+                        src={
+                          item.poster_path
+                            ? `https://image.tmdb.org/t/p/w94_and_h141_bestv2${item.poster_path}`
+                            : img1
+                        }
+                      />
+                    </Link>
                   </div>
                   <div className="cardIdentity">
                     <div>
-                      <span className="movCardIdentitySpan1">
-                        {" "}
-                        {item.name}{" "}
-                      </span>{" "}
+                      <Link
+                        to={{
+                          pathname: "/riefkythemoviedb/tvshow",
+                          state: {
+                            movieId: item.id
+                          }
+                        }}
+                      >
+                        <span className="movCardIdentitySpan1">
+                          {" "}
+                          {item.name}{" "}
+                        </span>{" "}
+                      </Link>
                     </div>
                     <div>
                       <span className="cardIdentitySpan2">

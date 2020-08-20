@@ -96,7 +96,14 @@ class MovieSlider extends Component {
                 <h1 className="sliderCategory-title">Popular Movies</h1>
               </div>
               <div>
-                <button className="sliderCategory-vmore">View More</button>
+                <button className="sliderCategory-vmore">
+                  <Link
+                    style={{ width: "100%", height: "100%", color: "#F4F4F4" }}
+                    to="/riefkythemoviedb/popularmovies"
+                  >
+                    View More{" "}
+                  </Link>
+                </button>
               </div>
             </div>
             <div onresize={() => {}} className="movSlider">
@@ -107,7 +114,7 @@ class MovieSlider extends Component {
                       <div className="card-movie">
                         <Link
                           to={{
-                            pathname: "/movie",
+                            pathname: "/riefkythemoviedb/movie",
                             state: {
                               movieId: item.id
                             }
@@ -146,7 +153,7 @@ class MovieSlider extends Component {
                         <div className="movie-title">
                           <Link
                             to={{
-                              pathname: "/movie",
+                              pathname: "/riefkythemoviedb/movie",
                               state: {
                                 movieId: item.id
                               }

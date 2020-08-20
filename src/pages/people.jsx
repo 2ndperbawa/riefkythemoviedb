@@ -187,7 +187,7 @@ class People extends Component {
                     <div className="peopleMovieCard">
                       <Link
                         to={{
-                          pathname: "/movie",
+                          pathname: "/riefkythemoviedb/movie",
                           state: {
                             movieId: item.id
                           }
@@ -222,7 +222,7 @@ class People extends Component {
       return (
         <div className="notFound">
           <h2>Person ID Not Found!</h2>
-          <Link className="toHome" to="/">
+          <Link className="toHome" to="/riefkythemoviedb/">
             {" "}
             back to home{" "}
           </Link>{" "}

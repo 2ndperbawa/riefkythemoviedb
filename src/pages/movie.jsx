@@ -559,7 +559,7 @@ class Movie extends Component {
       return (
         <div className="notFound">
           <h2>Movie Id Not Found!</h2>
-          <Link className="toHome" to="/">
+          <Link className="toHome" to="/riefkythemoviedb/">
             {" "}
             back to home{" "}
           </Link>{" "}

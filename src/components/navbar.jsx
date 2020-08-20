@@ -31,6 +31,9 @@ class Navbar extends Component {
         searchIcon: faSearch
       });
     }, 100);
+    this.setState({
+      redirect: true
+    });
   };
 
   render() {
@@ -39,7 +42,7 @@ class Navbar extends Component {
         {this.state.redirect && (
           <Redirect
             to={{
-              pathname: "/search",
+              pathname: "/riefkythemoviedb/search",
               state: {
                 searchKeyword: this.state.searchKeyword
               }
@@ -56,7 +59,7 @@ class Navbar extends Component {
                 this.setState({ sideWidth: "0%", menuIcon: faBars });
               }
             }}
-            to="/popularmovies"
+            to="/riefkythemoviedb/popularmovies"
           >
             Movies
           </Link>
@@ -68,7 +71,7 @@ class Navbar extends Component {
                 this.setState({ sideWidth: "0%", menuIcon: faBars });
               }
             }}
-            to="/populartvshows"
+            to="/riefkythemoviedb/populartvshows"
           >
             TV Shows
           </Link>
@@ -80,7 +83,7 @@ class Navbar extends Component {
                 this.setState({ sideWidth: "0%", menuIcon: faBars });
               }
             }}
-            to="/searchpeople"
+            to="/riefkythemoviedb/searchpeople"
           >
             People
           </Link>
@@ -88,23 +91,32 @@ class Navbar extends Component {
         <div className="navigasi">
           <div className="sub-nav nav-logo">
             {" "}
-            <Link to="/">
+            <Link to="/riefkythemoviedb/">
               <img className="tmdbLogo" src={logo} alt="" />{" "}
             </Link>
           </div>
           <div className="sub-nav subNav-middle"></div>
           <div className="sub-nav ">
-            <Link to="/popularmovies" className="subNav-a subNav-movies">
+            <Link
+              to="/riefkythemoviedb/popularmovies"
+              className="subNav-a subNav-movies"
+            >
               Movies
             </Link>
           </div>
           <div className=" subNav-moviesTab2">
-            <Link to="/populartvshows" className="subNav-a subNav-movies">
+            <Link
+              to="/riefkythemoviedb/populartvshows"
+              className="subNav-a subNav-movies"
+            >
               TV Shows
             </Link>
           </div>
           <div className="sub-nav">
-            <Link to="/searchpeople" className="subNav-a subNav-movies">
+            <Link
+              to="/riefkythemoviedb/searchpeople"
+              className="subNav-a subNav-movies"
+            >
               People
             </Link>
           </div>

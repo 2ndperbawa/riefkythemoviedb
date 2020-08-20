@@ -44,7 +44,7 @@ class App extends Component {
       return (
         <Redirect
           to={{
-            pathname: "/search",
+            pathname: "/riefkythemoviedb/search",
             state: {
               searchKeyword: this.state.searchKeyword
             }

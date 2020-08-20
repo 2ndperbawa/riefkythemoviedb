@@ -25,7 +25,7 @@ class MovieResult extends Component {
                   <div>
                     <Link
                       to={{
-                        pathname: "/movie",
+                        pathname: "/riefkythemoviedb/movie",
                         state: {
                           movieId: item.id
                         }
@@ -45,7 +45,7 @@ class MovieResult extends Component {
                     <div>
                       <Link
                         to={{
-                          pathname: "/movie",
+                          pathname: "/riefkythemoviedb/movie",
                           state: {
                             movieId: item.id
                           }

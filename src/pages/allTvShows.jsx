@@ -63,7 +63,7 @@ class AllTvShows extends Component {
                     <div className="card-movie-search">
                       <Link
                         to={{
-                          pathname: "/tvshow",
+                          pathname: "/riefkythemoviedb/tvshow",
                           state: {
                             movieId: item.id
                           }
@@ -102,7 +102,7 @@ class AllTvShows extends Component {
                       <div className="movie-title-search">
                         <Link
                           to={{
-                            pathname: "/tvshow",
+                            pathname: "/riefkythemoviedb/tvshow",
                             state: {
                               movieId: item.id
                             }
