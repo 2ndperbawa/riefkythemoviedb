@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/riefkythemoviedb/static/css/main.5a09cada.chunk.css",
+    "main.css": "/riefkythemoviedb/static/css/main.c38a4d96.chunk.css",
     "main.js": "/riefkythemoviedb/static/js/main.6515ffe6.chunk.js",
     "main.js.map": "/riefkythemoviedb/static/js/main.6515ffe6.chunk.js.map",
     "runtime-main.js": "/riefkythemoviedb/static/js/runtime-main.eadb2c3b.js",
@@ -9,10 +9,10 @@
     "static/js/2.11211a10.chunk.js": "/riefkythemoviedb/static/js/2.11211a10.chunk.js",
     "static/js/2.11211a10.chunk.js.map": "/riefkythemoviedb/static/js/2.11211a10.chunk.js.map",
     "index.html": "/riefkythemoviedb/index.html",
-    "precache-manifest.212bb631ba7f933c3e4038160ff66fa6.js": "/riefkythemoviedb/precache-manifest.212bb631ba7f933c3e4038160ff66fa6.js",
+    "precache-manifest.16e581a09ab8b214ca0ff19a5e9b623c.js": "/riefkythemoviedb/precache-manifest.16e581a09ab8b214ca0ff19a5e9b623c.js",
     "service-worker.js": "/riefkythemoviedb/service-worker.js",
     "static/css/2.78a17652.chunk.css.map": "/riefkythemoviedb/static/css/2.78a17652.chunk.css.map",
-    "static/css/main.5a09cada.chunk.css.map": "/riefkythemoviedb/static/css/main.5a09cada.chunk.css.map",
+    "static/css/main.c38a4d96.chunk.css.map": "/riefkythemoviedb/static/css/main.c38a4d96.chunk.css.map",
     "static/js/2.11211a10.chunk.js.LICENSE.txt": "/riefkythemoviedb/static/js/2.11211a10.chunk.js.LICENSE.txt",
     "static/media/TMDB2.svg": "/riefkythemoviedb/static/media/TMDB2.3519a3ca.svg",
     "static/media/default.svg": "/riefkythemoviedb/static/media/default.8a5f0958.svg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.eadb2c3b.js",
     "static/css/2.78a17652.chunk.css",
     "static/js/2.11211a10.chunk.js",
-    "static/css/main.5a09cada.chunk.css",
+    "static/css/main.c38a4d96.chunk.css",
     "static/js/main.6515ffe6.chunk.js"
   ]
 }
