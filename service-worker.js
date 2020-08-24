@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/riefkythemoviedb/precache-manifest.16e581a09ab8b214ca0ff19a5e9b623c.js"
+  "/riefkythemoviedb/precache-manifest.0482c1ade92d0064a74f1b2ea54314aa.js"
 );
 
 self.addEventListener('message', (event) => {
