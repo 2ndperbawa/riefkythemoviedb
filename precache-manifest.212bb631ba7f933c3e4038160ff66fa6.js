@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b77cee2fc9391c9573ae496e3019ed6",
+    "revision": "9cc156fd69dcc21555b9ff94cc40140a",
     "url": "/riefkythemoviedb/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/riefkythemoviedb/static/css/2.78a17652.chunk.css"
   },
   {
-    "revision": "a8b0b8f026aab56aadba",
-    "url": "/riefkythemoviedb/static/css/main.b7a0e260.chunk.css"
+    "revision": "f86438df27257de2427b",
+    "url": "/riefkythemoviedb/static/css/main.5a09cada.chunk.css"
   },
   {
     "revision": "349f6601dd0276834194",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/riefkythemoviedb/static/js/2.11211a10.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8b0b8f026aab56aadba",
-    "url": "/riefkythemoviedb/static/js/main.78321e4b.chunk.js"
+    "revision": "f86438df27257de2427b",
+    "url": "/riefkythemoviedb/static/js/main.6515ffe6.chunk.js"
   },
   {
     "revision": "6755a77eae20b573dbd7",
