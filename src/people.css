@@ -94,7 +94,7 @@
 .peopleDetailBiograph {
   margin-top: 8px;
   width: 95%;
-  height: 160px;
+  height: auto;
   border-radius: 9px;
 }
 
@@ -157,5 +157,11 @@
 
   .peopleMovie1 {
     margin-left: 7px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .peopleImg {
+    width: 50%;
   }
 }
