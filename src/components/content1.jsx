@@ -15,8 +15,8 @@ function Content1(props) {
         style={{
           content: {
             top: "10%",
-            left: "110px",
-            right: "110px",
+            left: "5px",
+            right: "5px",
             backgroundColor: "black"
           }
         }}

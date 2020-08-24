@@ -271,38 +271,7 @@ class Movie extends Component {
     if (this.props.location.state) {
       return (
         <div className="App movie">
-          <Modal
-            style={{
-              content: {
-                top: "10%",
-                left: "110px",
-                right: "110px",
-                backgroundColor: "black"
-              }
-            }}
-            isOpen={this.state.modalState}
-          >
-            <div clasName="modalClose">
-              <div
-                onClick={() => {
-                  this.setState({ modalState: false });
-                }}
-                className="modalCloseButton"
-              >
-                <FontAwesomeIcon
-                  style={{ color: "white" }}
-                  icon={faTimes}
-                  size="lg"
-                />
-              </div>
-            </div>
-            <iframe
-              className="modalIframe"
-              width="100%"
-              height="95%"
-              src={"https://www.youtube.com/embed/" + this.state.modalSrc}
-            ></iframe>
-          </Modal>{" "}
+
           <div className="movieNav"></div>
           <div
             style={{

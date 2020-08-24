@@ -115,7 +115,8 @@ class TrailerSlider extends Component {
             content: {
               top: "10%",
               left: "5px",
-              right: "5px"
+              right: "5px",
+              backgroundColor: "black"
             }
           }}
           isOpen={this.state.modalState}
@@ -131,6 +132,7 @@ class TrailerSlider extends Component {
             </div>
           </div>
           <iframe
+            className="modalIframe"
             width="100%"
             height="90%"
             src={"https://www.youtube.com/embed/" + this.state.modalSrc}
