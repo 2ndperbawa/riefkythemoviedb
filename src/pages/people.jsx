@@ -87,7 +87,11 @@ class People extends Component {
                   <h3 className="peopleIdentity-h1"> Gender </h3>
                   <span className="peopleIdentity-span">
                     {" "}
-                    {this.state.list.gender == 1 ? `Female` : "Male"}{" "}
+                    {this.state.list.gender == 0
+                      ? "-"
+                      : this.state.list.gender == 1
+                      ? `Female`
+                      : "Male"}{" "}
                   </span>
                   <h3 className="peopleIdentity-h1"> Birthday </h3>
                   <span className="peopleIdentity-span">
@@ -171,7 +175,7 @@ class People extends Component {
 
             <div className="peopleMovieHeader">
               {this.state.movList.cast ? (
-                <h4 className="peopleBiographyH-h"> Movies </h4>
+                <h4 className="peopleBiographyH-h peopleBiographyH-h2"> Movies </h4>
               ) : (
                 <Skeleton
                   style={{ borderRadius: "5px" }}
